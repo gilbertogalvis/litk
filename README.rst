@@ -6,7 +6,7 @@ litk - Lenticular Image Tool Kit
 :Email: john.kays2020@gmail.com, galvisgilberto@gmail.com
 :Version: $revision: 0.1.1 $
 
-This tool provides functions to work with lenticular images. So far, we have only developed functions to solve the problem backwards. That is, starting from the lenticular image (multi-view image), recover the original _n images_ (the _n views_) that generated it.
+This tool provides functions to work with lenticular images. So far, we have only developed functions to solve the problem backwards. That is, starting from the lenticular image (multi-view image), recover the original n images (the n views) that generated it.
 
 Installation
 ------------
