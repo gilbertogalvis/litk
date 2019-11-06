@@ -30,7 +30,7 @@ Recover and Reconstruct a set of views
 
 For this mode of use we use the multiview2view tool. To execute it we must run
 
-.. code:: python
+.. code:: shell
 
 	python multiview2view.py <visual.json> <path-to-multiview-image> <number-of-views> <output-folder> <only-recovery>
 
@@ -41,7 +41,7 @@ Example
 
 This repository contains a multi-view image with which we can test the tool. Below we show the respective example
 
-.. code:: python
+.. code:: shell
 
 	python multiview2views.py visual.json inputs/test1.bmp 37 views False
 
@@ -52,7 +52,7 @@ make the animation
 
 Additionally we can make an animation with the views obtained in the previous use mode. To execute it we must run
 
-.. code:: python
+.. code:: shell
 
 	python make_animation.py <view-folder> <video-name>
 
@@ -63,7 +63,7 @@ Example
 
 This repository contains a view folder with views recovery included with which we can test this tool. Below we show the respective example
 
-.. code:: python
+.. code:: shell
 
 	python make_animation.py views video_animation.avi
 
