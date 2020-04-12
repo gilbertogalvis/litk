@@ -1,0 +1,2 @@
+input name,output name,resolution,pixel size,pixel shift,blue xy,green xy,red xy,blue size,green size,red size,border
+test_border.png,test_border.png,10,(231 231),1,(0 0),(77 0),(22 108),(55 89),(132 89),(141 104),(0 0 0 0)
